@@ -26,3 +26,8 @@ _testmain.go
 /Godeps/Readme
 /Godeps/_workspace
 
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
