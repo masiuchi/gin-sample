@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf ./vendor/
 godep restore
-ls *.go | grep -v _test.go | xargs godep go build -o bin/application
+godep go build -o bin/application main.go
 
